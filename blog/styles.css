@@ -1,0 +1,126 @@
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+
+* {
+	box-sizing: border-box;
+
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 4px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #cecfd5;
+}
+
+th {
+	font-size: 22px;
+	text-align: center;
+}
+
+.main {
+	background-color: white;
+	width: 100%;
+	padding: 10px;
+	display: flex;
+}
+
+.blog {
+	display: block;
+	float:left;
+	width: 60%;
+	padding: 25px;
+	background-color: lightslategray;
+	border-radius: 15px; 
+}
+
+.featured {
+	display: block;
+	float: left;
+	width: 35%;
+	background-color: peachpuff;
+	padding: 50px;
+	margin-left: 5%;
+	box-shadow: 2px 2px #fff5ec;
+	border-radius: 15px;
+	flex: 0 0 25em;
+
+}
+
+h1 {
+	font-family: 'League Script', cursive;
+	font-size: 55px;
+}
+
+h2 {
+	font-family: 'League Script', cursive;
+	font-size: 35px;
+
+}
+
+h3, h4, h5 {
+	font-family: "Josefin Slab";
+	font-size: 30px;
+}
+
+header {
+/*	position: relative;
+*/	width: 100%;
+	background-color: papayawhip;
+	padding-top: 0px;
+	padding-left: 15px;
+	height: 200px;
+}
+
+nav {
+	float: left;
+}
+
+.home, .about, .contact {
+	float: left;
+	padding-top: 40px;
+	padding-left: 40px;
+	background-color: papayawhip;
+	height: 200px;
+}
+
+.home :hover, .about :hover, .contact :hover{
+
+	background-color: black;
+
+}
+
+.home a, .contact a, .about a {
+	text-decoration: none;
+	color: gray;
+	font-family: Josefin Slab;
+	font-size: 30px;
+}
+
+.post {
+	background-color: darkkhaki;
+	margin: 15px auto;
+	padding: 50px;
+	width: 90%;
+	border-radius: 15px;
+	box-shadow: 1px 1px 1px #635f2c;
+}
+
+img {
+max-width: 300px;
+
+}
+
+
